@@ -1,0 +1,54 @@
+//  for extends 
+
+%btn{
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background:  #DB4444;
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #DB4444;
+    transition: all .2s linear;
+
+    &:hover{
+        cursor: pointer;
+        background: transparent;
+        color: #000;
+        border: 1px solid rgba(0, 0, 0, 0.50);
+        transition: all .2s linear;
+    }
+}
+
+%btn2{
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: transparent;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    transition: all .2s linear;
+
+    &:hover{
+        cursor: pointer;
+        background: #DB4444;
+        color: #FAFAFA;
+        border: 1px solid #DB4444;
+        transition: all .2s linear;
+    }
+}
+
+
+// @exstend %extandName; call to extend
